@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const Routes = mongoose.model("Routes")
 
 router.get("/", (req,res) => {
-    res.render("router/crud", {
+    res.render("router/ciudades24horas", {
         viewTitle: "Insert Route"
     });
 });
